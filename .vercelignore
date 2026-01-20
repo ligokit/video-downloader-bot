@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Specs and documentation (not needed in production)
+.kiro/
+
+# Local files
+.env
+temp/
+*.mp4
+*.webm
+*.mkv
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Tests
+tests/
+.pytest_cache/
+.hypothesis/

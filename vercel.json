@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/webhook.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/webhook",
+      "dest": "api/webhook.py"
+    }
+  ],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "BOT_USERNAME": "@bot_username",
+    "MAX_FILE_SIZE_MB": "50",
+    "CLEANUP_INTERVAL_HOURS": "1",
+    "MAX_FILE_AGE_HOURS": "1"
+  }
+}
