@@ -2,7 +2,7 @@
 aiogram==3.4.1
 
 # Video Downloader
-yt-dlp==2024.1.19
+yt-dlp>=2024.12.23
 
 # Async File Operations
 aiofiles==23.2.1
