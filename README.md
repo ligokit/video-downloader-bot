@@ -1,6 +1,10 @@
 # 🎥 Video Downloader Bot
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ligokit/video-downloader-bot)
+
 Telegram бот для скачивания видео с YouTube Shorts и TikTok. Поддерживает как прямые сообщения, так и inline-режим для использования в любых чатах.
+
+**GitHub:** [https://github.com/ligokit/video-downloader-bot](https://github.com/ligokit/video-downloader-bot)
 
 ## ✨ Возможности
 
